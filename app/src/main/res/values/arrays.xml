@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_move">
+        <item>@string/always</item>
+        <item>@string/fling_only</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="auto_move_value" translatable="false">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

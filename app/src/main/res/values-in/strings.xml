@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SolitaireCG</string>
+    <string name="menu_bakersgame">Freecell (by suit: Baker\'s)</string>
+    <string name="menu_blackwidow">Spider (1 suit: black widow)</string>
+    <string name="menu_fortythieves">Forty Thieves</string>
+    <string name="menu_freecell">Freecell (by alt-color)</string>
+    <string name="menu_golf">Golf (no build on king)</string>
+    <string name="menu_golf_wrapcards">Golf (wrap cards)</string>
+    <string name="menu_klondike_dealone">Klondike (deal 1)</string>
+    <string name="menu_klondike_dealthree">Klondike (deal 3)</string>
+    <string name="menu_spider">Spider (4 suits)</string>
+    <string name="menu_tarantula">Spider (2 suits: tarantula)</string>
+    <string name="menu_tripeaks">TriPeaks (no build on king)</string>
+    <string name="menu_tripeaks_wrapcards">TriPeaks (wrap cards)</string>
+    <string name="menu_vegas_dealone">Vegas (deal 1)</string>
+    <string name="menu_vegas_dealthree">Vegas (deal 3)</string>
+
+    <string name="menu_selectgame">Pilih permainan</string>
+    <string name="menu_new">Permainan baru</string>
+    <string name="menu_restart">Mulai ulang</string>
+    <string name="menu_options">Opsi</string>
+    <string name="menu_stats">Statistik</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_exit">Keluar</string>
+    <string name="menu_blank" />
+    <string name="solitaire_layout_text_text" />
+
+    <!-- Shown on the options preference screen -->
+    <string name="options_title">Opsi</string>
+    <string name="big_cards">Seni Kartu Besar</string>
+    <string name="big_cards_desc">Tampilkan seni kartu sederhana untuk meningkatkan visibilitas</string>
+    <string name="display_time">Tampilkan Waktu</string>
+    <string name="display_time_desc">Tampilkan penghitung waktu sejak permainan dimulai</string>
+    <string name="auto_move">Pindah Otomatis</string>
+    <string name="auto_move_desc">Pindahkan kartu yang memungkinkan ke pondasi secara otomatis</string>
+    <string name="always">Selalu</string>
+    <string name="fling_only">Melempar Saja</string>
+    <string name="never">Jangan Pernah</string>
+    <string name="lock_landscape">Kunci Lanskap</string>
+    <string name="lock_landscape_desc">Kunci permainan dalam orientasi lanskap</string>
+
+    <!-- Shown in the game if needed -->
+    <string name="toast_blank_menu">This menu item intentionally left blank.</string>
+    <string name="toast_restart_invalid">Permainan selesai. Mulai ulang tidak tersedia.</string>
+    <string name="toast_use_start_menu">Permainan selesai. Gunakan menu untuk memulai permainan baru.</string>
+    <string name="toast_no_undo_left">Tidak ada pembatalan tersisa.</string>
+
+    <!-- Shown on the splash screen at first startup -->
+    <string name="splash_text">Tekan di mana saja untuk memulai\n\n
+        TIP: Tekan ^ di tengah bawah layar untuk menu alternatif.
+    </string>
+
+    <!-- Shown when a game is won -->
+    <string name="win_text">Kamu Menang!\n\nGunakan menu untuk memulai permainan baru.</string>
+
+    <!-- Messages shown on the help window -->
+
+    <!-- The argument is the version number of the SolitaireCG application -->
+    <string name="help_window_title">SolitaireCG %s | Bantuan</string>
+    <string name="readme_header">README file from source code</string>
+    <string name="copying_header">COPYING file from source code</string>
+
+    <!-- Messages shown on the stats window -->
+
+    <string name="accept">Tutup</string>
+    <string name="clear">Reset</string>
+
+    <!-- The argument is the pretty game name, such as "Klondike (Dealing Three)" or "Golf" -->
+    <string name="stats_for_game">%s Statistik</string>
+
+    <string name="stats_wins_and_attempts">Menang: %1$d Percobaan: %2$d</string>
+    <string name="stats_winning_percentage">Persentase Menang: %s%%</string>
+    <string name="stats_fastest_time">Waktu Tercepat: %s</string>
+
+    <!-- The argument is the user's high score as an integer -->
+    <string name="stats_high_score">Skor Tertinggi: %s</string>
+    <string name="not_enough_live">Nyawa tidak cukup</string>
+    <string name="out_of_lives">Nyawa habis</string>
+    <string name="recharge_full_lives">Pulihkan nyawa dengan</string>
+    <string name="watch_video">Tonton Video</string>
+    <string name="lives_recharged">Nyawa dipulihkan.</string>
+    <string name="use_2_coin">Gunakan 2 Koin</string>
+    <string name="coin_not_enough">Koin tidak cukup. Menangkan permainan untuk mendapatkan koin.</string>
+    <string name="sound">Suara</string>
+    <string name="button_card_sound">Suara tombol atau suara kartu saat diseret.</string>
+    <string name="app_info">Info App</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="more">Lainnya</string>
+    <string name="project_open_source">Projek Sumber Terbuka</string>
+    <string name="contact_us">Kontak dukungan support@gwnbs.com</string>
+    <string name="copyright_text"><![CDATA[Karya Asli & Hak Cipta 2008 <b>Google LLC</b>.<br/>Dimodifikasi <small><small><b>oleh</b></small></small> <b>Curtis Gedak</b> 2015, 2016, 2017. https://solitairecg.sourceforge.io
+    <br/>Dimodifikasi dengan iklan <small><small><b>oleh</b></small></small> <b>Daltray Nababan (GWNBS)</b> 2021.
+    <br/>Berlisensi di bawah Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0]]></string>
+</resources>

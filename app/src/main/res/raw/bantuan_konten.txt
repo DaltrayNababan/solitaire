@@ -1,0 +1,333 @@
+<p>
+<b>Gim Kartu Solitaire</b> untuk Android&trade; menawarkan
+beberapa permainan kartu single player untuk mengisi waktumu.
+</p>
+<p>
+<a href="#general">Umum</a><br>
+<a href="#terms">Terminologi</a><br>
+ &nbsp; <a href="#bakersgame">Baker's Game</a><br>
+ &nbsp; <a href="#blackwidow">Black Widow</a><br>
+ &nbsp; <a href="#fortythieves">Forty Thieves</a><br>
+ &nbsp; <a href="#freecell">Freecell</a><br>
+ &nbsp; <a href="#golf">Golf</a><br>
+ &nbsp; <a href="#golf-wrapcards">Golf (wrap cards)</a><br>
+ &nbsp; <a href="#klondike-deal1">Klondike (deal 1)</a><br>
+ &nbsp; <a href="#klondike-deal3">Klondike (deal 3)</a><br>
+ &nbsp; <a href="#spider">Spider</a><br>
+ &nbsp; <a href="#tarantula">Tarantula</a><br>
+ &nbsp; <a href="#tripeaks">TriPeaks</a><br>
+ &nbsp; <a href="#tripeaks-wrapcards">TriPeaks (wrap cards)</a><br>
+ &nbsp; <a href="#vegas-deal1">Vegas (deal 1)</a><br>
+ &nbsp; <a href="#vegas-deal3">Vegas (deal 3)</a><br>
+</p>
+
+<h2 id="general">Umum</h2>
+<p>
+Navigasi bermain SolitaireCG adalah sebagai berikut:
+</p>
+<ul style="list-style: none;">
+  <li><b>Berpindah</b><br>
+    <i>Kartu Tunggal</i> - Tarik kartu.<br>
+    <i>Seluruh Tumpukan Kartu</i> - Seret tumpukan kartu mulai dari kartu paling atas.<br>
+    <i>Sebagian Tumpukan</i> - Ketuk tumpukan, gulir untuk menyesuaikan, lalu seret kartu teratas.<br><br>
+  </li>
+  <li><b>Pindah Otomatis</b><br>
+    Lemparkan kartu untuk memulai rantai kartu pindah ke tempatnya.<br><br>
+  </li>
+  <li><b>Dealing</b><br>
+    Ketuk dek, atau klik trackball atau tombol pencarian.<br><br>
+  </li>
+  <li><b>Pembatalan (Undo)</b><br>
+    Tekan tombol kembali perangkat.<br><br>
+  </li>
+  <li><b>Menu</b><br>
+    Tekan ^ yang berada ditengah bawah layar untuk menu alternatif.<br><br>
+  </li>
+</ul>
+<p>
+Game play dapat disesuaikan dengan opsi berikut:
+</p>
+<ul style="list-style: none;">
+  <li><b>Seni Kartu Besar</b><br>
+    Mengaktifkan atau menonaktifkan penggunaan seni kartu sederhana untuk meningkatkan visibilitas.<br><br>
+  </li>
+  <li><b>Tampilkan Waktu</b><br>
+    Menampilkan atau menyembunyikan penghitung waktu sejak permainan dimulai.<br><br>
+  </li>
+  <li><b>Suara</b><br>
+    Aktifkan atau nonaktifkan suara tombol atau kartu saat diseret / ketuk.<br><br>
+  </li>
+  <li><b>Berpindah Otomatis</b><br>
+    <i>Selalu</i> - secara otomatis akan memindahkan kartu ke pondasi.<br>
+    <i>Melempar Saja</i> - akan memulai rantai kartu pindah ke pondasi jika kartu dilemparkan.<br>
+    <i>Jangan Pernah</i> - tidak akan secara otomatis memindahkan kartu. Semua kartu harus dipindahkan secara manual.<br><br>
+  </li>
+  <li><b>Kunci Lanskap</b><br>
+    Aktifkan atau nonaktifkan kunci untuk permainan dalam orientasi lanskap.<br><br>
+  </li>
+</ul>
+<p>
+Nyawa <font color="red">&hearts;</font> digunakan untuk berpindah jenis permainan kartu dan memulai permainan baru.<br/><br/>
+Koin <img  src="https://image.flaticon.com/icons/png/512/2927/2927808.png"  alt="" width="15" height="15"  /> dapat digunakan untuk memulihkan nyawa. Koin didapat dari menang permainan.<br/><br/>
+Statistik permainan tersedia, seperti menang dan kalah.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="terms">Terminologi</h2>
+<p>
+Sebuah permainan kartu berisi satu atau lebih tumpukan kartu yang masing-masing terdiri dari 52 kartu.
+</p>
+<p>
+Setiap dek berisi empat setelan: Keriting (Clubs) &clubs;,
+Berlian / Wajik (Diamonds) <font color="red">&diams;</font>,
+Hati (Hearts) <font color="red">&hearts;</font>, dan Sekop / Waru (Spades) &spades;.
+</p>
+<p>
+Masing-masing terdiri atas tiga belas kartu dengan urutan menaik sebagai berikut: As (Ace), 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, dan King.
+</p>
+<p>
+Tujuan permainan kartu solitaire umumnya melibatkan manipulasi tata letak kartu dengan tujuan menyortir kartu dengan cara tertentu.
+</p>
+<p>
+Beberapa istilah yang berguna untuk menggambarkan permainan kartu solitaire:
+</p>
+<p>
+<b id="stock">Stok (Stock)</b><br>
+Setumpuk kartu yang dapat ditarik selama permainan, biasanya satu kartu pada satu waktu.
+</p>
+<p>
+<b id="waste">Limbah (Waste)</b><br>
+Tumpukan di mana kartu yang dibuang disimpan, biasanya agar dapat digunakan nanti dalam permainan.
+</p>
+<p>
+<b id="foundation">Fondasi (Foundation)</b><br>
+Setumpuk kartu yang dibangun di atas kartu dasar, biasanya dalam urutan menaik dari jenis kartu yang sama.
+</p>
+<p>
+<b id="tableau">Tablo (Tableau)</b><br>
+Tumpukan sementara di mana Anda membuat kelompok kartu dalam beberapa urutan sebelum Anda dapat memindahkan kartu ke fondasi.
+</p>
+<p>
+<b id="build">Bangunan (Build)</b><br>
+Urutan kartu berurutan yang mungkin sebagian atau penuh (13 kartu berurutan).
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="bakersgame">Baker's Game</h2>
+<p>
+Mainnya mirip dengan <a href="#freecell">Freecell</a> kecuali tablo dibangun dalam setelan.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="blackwidow">Black Widow</h2>
+<p>
+Mainnya mirip dengan <a href="#spider">Spider</a> kecuali hanya ada satu setelan. Lebih sedikit setelan lebih mudah dimainkan. Lihat juga <a
+href="#tarantula">Tarantula</a>.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="fortythieves">Forty Thieves</h2>
+<p>
+Gim solitaire dua dek yang dikenal luas.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Delapan fondasi di kiri atas. Kanan selanjutnya adalah stok dan limbah. Pada baris di bawah ini ada sepuluh tablo (tableaus), masing-masing berisi empat kartu menghadap ke atas.
+</p>
+<p>
+<b>Bermain</b><br>
+Tablo (Tableaus) dibangun dalam urutan yang sesuai. Kartu tunggal dapat dipindahkan di antara tablo. Tablo kosong dapat diisi dengan kartu apa saja.
+</p>
+<p>
+Ketuk stok untuk menyerahkan satu kartu sekaligus ke sampah. Kartu teratas dalam limbah dapat dimainkan pada tablo atau fondasi.
+</p>
+<p>
+Pondasi dibangun dalam setelan dari As (Ace).
+</p>
+<p>
+<b>Gol</b><br>
+Pindahkan semua kartu ke fondasi.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="freecell">Freecell</h2>
+<p>
+Gim solitaire dek tunggal klasik.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Empat stok di kiri atas dengan empat fondasi di kanan. Pada baris di bawah ini ada delapan tablo. Empat tablo kiri berisi 7 kartu menghadap ke atas dan empat tablo kanan berisi 6 kartu menghadap ke atas.
+</p>
+<p>
+<b>Bermain</b><br>
+Tablo dibangun dalam warna bergantian. Kartu tunggal dapat dipindahkan di antara tablo. Tablo kosong dapat diisi dengan kartu apa saja.
+</p>
+<p>
+Stok memegang kartu tunggal.
+</p>
+<p>
+Pondasi dibangun dalam setelan dari As (Ace).
+</p>
+<p>
+<b>Gol</b><br>
+Pindahkan semua kartu ke fondasi.
+</p>
+<p>
+<b>Variasi</b><br>
+<i>Build Order</i> - Tablo dibangun antara: <i>(Freecell)</i> dengan warna bergantian, atau <i><a href="#bakersgame">Baker's Game</a></i> dengan setelan.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="golf">Golf</h2>
+<p>
+Hitung naik dan turun dan coba akhiri dengan 4 atau lebih sedikit kartu yang ditampilkan. Analogi dengan golf adalah jumlah kartu yang tersisa di tablo setelah menyelesaikan tangan adalah pukulan golf, dan setiap permainan adalah lubang golf.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Stok di kanan atas dengan sampah di kiri. Pada baris di bawah, tujuh tablo masing-masing berisi lima kartu menghadap ke atas.
+</p>
+<p>
+<b>Bermain</b><br>
+Limbah menumpuk atau turun terlepas dari setelannya. Kartu King mungkin tidak dibangun di atasnya.
+</p>
+<p>
+Tablo tidak mengizinkan bangunan. Kartu teratas hanya dapat dipindahkan ke tempat sampah.
+</p>
+<p>
+Ketuk stok untuk memunculkan satu kartu ke sampah.
+</p>
+<p>
+<b>Gol</b><br>
+Kosongkan semua tablo.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="golf-wrapcards">Golf (wrap cards)</h2>
+<p>
+Cara bermain mirip dengan <a href="#golf">Golf</a> namun lebih mudah. Perbedaan utama adalah bahwa King dapat dibangun di atasnya. Permainan diperbolehkan untuk membungkus dari King ke As dan sebaliknya yang dikenal sebagai "turning-the-corner".
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="klondike-deal1">Klondike (deal 1)</h2>
+<p>
+Cara bermain mirip dengan <a href="#klondike-deal3">Klondike (deal 3)</a>.
+Perbedaan utama adalah bahwa kartu dibagikan dari stok satu per satu.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="klondike-deal3">Klondike (deal 3)</h2>
+<p>
+Mungkin gim solitaire dek tunggal paling populer. Juga dikenal sebagai solitaire atau kesabaran.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Stok di kiri atas dengan sampah di kanan. Lebih jauh ke kanan adalah empat fondasi. Pada baris di bawah, tujuh tablo masing-masing berisi kartu menghadap ke atas. Setiap tablo yang berdekatan di sebelah kanan berisi satu kartu tersembunyi lebih banyak daripada tablo di sebelah kiri.
+</p>
+<p>
+<b>Bermain</b><br>
+Tablo dibangun dengan warna bergantian. Bangunan penuh atau sebagian dapat dipindahkan di antara tablo. Tablo kosong dapat diisi dengan King atau bangunan yang dimulai dengan King.
+</p>
+<p>
+Kartu teratas dari tumpukan sampah dapat dimainkan pada tablo atau pondasi.
+</p>
+<p>
+Pondasi dibangun dalam setelan dari As.
+</p>
+<p>
+Ketuk stok untuk memunculkan tiga kartu ke sampah. Ketuk stok kosong untuk memulai kembali stok.
+</p>
+<p>
+<b>Gol</b><br>
+Pindahkan semua kartu ke fondasi.
+</p>
+<p>
+<b>Variasi</b><br>
+<i>Stok Deal</i> - Memunculkan dari stok antara: <i>(deal 1)</i> satu kartu pada satu waktu, atau <i>(deal 3)</i> tiga kartu sekaligus.<br>
+<i>Style</i> - Pergi melalui stok antara: <i>(Klondike)</i> waktu tak terbatas, atau <i>(<a href="#vegas-deal1">Vegas</a>)</i> hanya sekali dan menjaga skor.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="spider">Spider</h2>
+<p>
+Salah satu gim solitaire dua dek paling populer.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Sepuluh tablo masing-masing berisi kartu menghadap ke atas. Empat tablo kiri memiliki 5 kartu tersembunyi, dan enam tablo kanan memiliki 4 kartu tersembunyi. Stok berisi 50 kartu ada di pojok kiri bawah layar.
+</p>
+<p>
+<b>Bermain</b><br>
+Tablo dibangun terlepas dari setelan atau warna. Bangunan penuh atau sebagian dalam setelan dapat dipindahkan di antara tablo. Tablo kosong dapat diisi dengan bangunan apa pun yang tersedia.
+</p>
+<p>
+Susunan dari tiga belas kartu, sesuai dari King hingga As akan dihapus secara otomatis.
+</p>
+<p>
+Ketuk dek untuk memunculkan satu kartu di setiap tablo.
+</p>
+<p>
+<b>Goal</b><br>
+Susun semua kartu dalam setelan bangunan dari King hingga As.
+</p>
+<p>
+<b>Variasi</b><br>
+<i><a href="#blackwidow">Black Widow</a></i> - Gunakan satu setelan saja. Lebih sedikit setelan lebih mudah dimainkan.<br>
+<i><a href="#tarantula">Tarantula</a></i> - Gunakan dua setelan.<br>
+<i>Spider</i> -  Gunakan empat setelan.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="tarantula">Tarantula</h2>
+<p>
+Cara bermain mirip dengan <a href="#spider">Spider</a> kecuali hanya ada dua setelan. Lihat juga <a href="#blackwidow">Black Widow</a>.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="tripeaks">TriPeaks</h2>
+<p>
+Hitung ke atas dan ke bawah dan cobalah untuk menghapus ketiga puncak.
+</p>
+<p>
+<b>Tata Letak</b><br>
+Stok di kanan atas dengan sampah di kiri. Pada baris di bawah, adalah tiga piramida yang terdiri dari tablo.
+</p>
+<p>
+<b>Bermain</b><br>
+Limbah menumpuk atau turun terlepas dari setelannya. Kartu King mungkin tidak dibangun di atasnya.
+</p>
+<p>
+Tablo tidak mengizinkan bangunan. Kartu teratas hanya dapat dipindahkan ke tempat sampah.
+</p>
+<p>
+Ketuk stok untuk memunculkan satu kartu ke sampah.
+</p>
+<p>
+<b>Gol</b><br>
+Kosongkan semua tablo.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="tripeaks-wrapcards">TriPeaks (wrap cards)</h2>
+<p>
+Cara bermain mirip dengan <a href="#tripeaks">TriPeaks</a> namun lebih mudah. Perbedaan utama adalah bahwa King dapat dibangun di atasnya. Permainan diperbolehkan untuk membungkus dari King ke As dan sebaliknya yang dikenal sebagai "turning-the-corner".
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="vegas-deal1">Vegas (deal 1)</h2>
+<p>
+Cara bermain mirip dengan <a href="#klondike-deal3">Klondike (deal 3)</a>.
+Perbedaan utamanya adalah bahwa kartu dibagikan dari stok satu per satu, dan hanya satu kartu yang melewati stok yang diizinkan.<br>
+<br>
+Mata uang virtual digunakan untuk melacak skor. Memulai permainan baru akan dikenakan biaya $52, atau $1 per kartu di dek. Pemain dibayar $5 untuk setiap kartu yang ditempatkan di atas fondasi yang dibangun dari kartu as. Skor adalah kumulatif selama permainan yang dimainkan secara berurutan. Skor diatur ulang ketika jenis permainan yang berbeda dipilih. <i>Golf</i>.
+</p>
+<a href="#top">Kembali ke atas</a>
+
+<h2 id="vegas-deal3">Vegas (deal 3)</h2>
+<p>
+Cara bermain mirip dengan <a href="#klondike-deal3">Klondike (deal 3)</a>.
+Perbedaan utama adalah bahwa hanya tiga operan melalui stok yang diizinkan.<br>
+<br>
+Mata uang virtual digunakan untuk melacak skor yang mirip dengan
+<a href="#vegas-deal1">Vegas (deal 1)</a>.
+</p>
+<a href="#top">Kembali ke atas</a>

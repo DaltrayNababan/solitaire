@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_fortythieves"
+        android:id="@+id/fortyThieves"/>
+    <item android:title="@string/menu_freecell"
+        android:id="@+id/freeCellAltColor"/>
+    <item android:title="@string/menu_bakersgame"
+        android:id="@+id/freeCellBakers"/>
+    <item android:title="@string/menu_golf"
+        android:id="@+id/golfNoBuild"/>
+    <item android:title="@string/menu_golf_wrapcards"
+        android:id="@+id/golfWrapCards"/>
+    <item android:title="@string/menu_klondike_dealone"
+        android:id="@+id/klondikeDeal1"/>
+    <item android:title="@string/menu_klondike_dealthree"
+        android:id="@+id/klondikeDeal3"/>
+    <item android:title="@string/menu_spider"
+        android:id="@+id/spider4Suits"/>
+    <item android:title="@string/menu_tarantula"
+        android:id="@+id/spiderTarantula"/>
+    <item android:title="@string/menu_blackwidow"
+        android:id="@+id/spiderBlackWidow"/>
+    <item android:title="@string/menu_tripeaks"
+        android:id="@+id/triPeaksNoBuild"/>
+    <item android:title="@string/menu_tripeaks_wrapcards"
+        android:id="@+id/triPeaksWrapCards"/>
+    <item android:title="@string/menu_vegas_dealone"
+        android:id="@+id/vegasDeal1"/>
+    <item android:title="@string/menu_vegas_dealthree"
+        android:id="@+id/vegasDeal3"/>
+
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SolitaireCG</string>
+    <string name="menu_bakersgame">Freecell (by suit: Baker\'s)</string>
+    <string name="menu_blackwidow">Spider (1 suit: black widow)</string>
+    <string name="menu_fortythieves">Forty Thieves</string>
+    <string name="menu_freecell">Freecell (by alt-color)</string>
+    <string name="menu_golf">Golf (no build on king)</string>
+    <string name="menu_golf_wrapcards">Golf (wrap cards)</string>
+    <string name="menu_klondike_dealone">Klondike (deal 1)</string>
+    <string name="menu_klondike_dealthree">Klondike (deal 3)</string>
+    <string name="menu_spider">Spider (4 suits)</string>
+    <string name="menu_tarantula">Spider (2 suits: tarantula)</string>
+    <string name="menu_tripeaks">TriPeaks (no build on king)</string>
+    <string name="menu_tripeaks_wrapcards">TriPeaks (wrap cards)</string>
+    <string name="menu_vegas_dealone">Vegas (deal 1)</string>
+    <string name="menu_vegas_dealthree">Vegas (deal 3)</string>
+    <string name="menu_selectgame">Selecciona un juego</string>
+    <string name="menu_new">Nueva</string>
+    <string name="menu_restart">Reanudar</string>
+    <string name="menu_options">Opciones</string>
+    <string name="menu_stats">Estadisticas</string>
+    <string name="menu_help">Ayudar</string>
+    <string name="menu_exit">Salida</string>
+    <string name="menu_blank" />
+    <string name="solitaire_layout_text_text" />
+
+    <!-- Shown on the options preference screen -->
+    <string name="options_title">Opciones</string>
+    <string name="big_cards">Arte de tarjeta grande</string>
+    <string name="big_cards_desc">Muestre el arte de la tarjeta simple para mejorar la visibilidad</string>
+    <string name="display_time">Tiempo de visualización</string>
+    <string name="display_time_desc">Muestra el tiempo transcurrido desde que comenzó el juego</string>
+    <string name="auto_move">Movimiento automático</string>
+    <string name="auto_move_desc">Mueva automáticamente las posibles tarjetas a los cimientos</string>
+    <string name="always">Siempre</string>
+    <string name="fling_only">Solo arrojar</string>
+    <string name="never">Nunca</string>
+    <string name="lock_landscape">Bloquear paisaje</string>
+    <string name="lock_landscape_desc">Bloquear el juego en orientación horizontal</string>
+
+    <!-- Shown in the game if needed -->
+    <string name="toast_blank_menu">This menu item intentionally left blank.</string>
+    <string name="toast_restart_invalid">Juego terminado. Reiniciar no disponible.</string>
+    <string name="toast_use_start_menu">Juego terminado. Usa el menú para comenzar un nuevo juego.</string>
+    <string name="toast_no_undo_left">No queda deshacer.</string>
+
+    <!-- Shown on the splash screen at first startup -->
+    <string name="splash_text">Presione en cualquier lugar para comenzar
+        \n\nSUGERENCIA: Mantenga presionado ^ en la parte inferior central de la pantalla para un menú alternativo.
+    </string>
+
+    <!-- Shown when a game is won -->
+    <string name="win_text">Tú ganas !\n\nUsa el menú ^ para comenzar un nuevo juego.</string>
+
+    <!-- Messages shown on the help window -->
+
+    <!-- The argument is the version number of the SolitaireCG application -->
+    <string name="help_window_title">Solitaire Card Games %s Ayudar</string>
+    <string name="readme_header">README file from source code</string>
+    <string name="copying_header">COPYING file from source code</string>
+
+    <!-- Messages shown on the stats window -->
+
+    <string name="accept">Aceptar</string>
+    <string name="clear">Reiniciar</string>
+
+    <!-- The argument is the pretty game name, such as "Klondike (Dealing Three)" or "Golf" -->
+    <string name="stats_for_game">%s Estadísticas</string>
+
+    <string name="stats_wins_and_attempts">Gana: %1$d Intentos: %2$d</string>
+    <string name="stats_winning_percentage">Porcentaje de victorias: %s%%</string>
+    <string name="stats_fastest_time">El tiempo mas rápido: %s</string>
+
+    <!-- The argument is the user's high score as an integer -->
+    <string name="stats_high_score">Puntuación más alta: %s</string>
+    <string name="not_enough_live">No hay suficiente vida</string>
+    <string name="out_of_lives">Fuera de vidas</string>
+    <string name="recharge_full_lives">Restaurar la vida por</string>
+    <string name="watch_video">Ver video</string>
+    <string name="lives_recharged">Vidas recargadas.</string>
+    <string name="use_2_coin">Usa 2 monedas</string>
+    <string name="coin_not_enough">Moneda no es suficiente. Gana el juego para conseguir una moneda.</string>
+    <string name="sound">Sonar</string>
+    <string name="button_card_sound">Sonido de botón o sonido cuando se arrastra la tarjeta.</string>
+    <string name="app_info">Informacion de la applicacion</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="more">Más</string>
+    <string name="project_open_source">Proyecto de código abierto</string>
+    <string name="contact_us">Contáctenos en support@gwnbs.com</string>
+    <string name="copyright_text"><![CDATA[Trabajo original y derechos de autor 2008 <b>Google LLC</b>.<br/>Modificado <small><small><b>por</b></small></small> <b>Curtis Gedak</b> 2015, 2016, 2017. https://solitairecg.sourceforge.io
+    <br/>Modificado con anuncios <small><small><b>por</b></small></small> <b>Daltray Nababan (GWNBS)</b> 2021.
+    <br/>Licenciado bajo Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0]]></string>
+</resources>
